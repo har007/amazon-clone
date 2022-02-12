@@ -16,4 +16,5 @@ export const StateProvider= ({reducer, initialState, children}) =>(
 // in the above program we are using jsx so it will be ({reducer, initialState, children}) =>return({})  or simply({reducer, initialState, children}) => ({})
 
 //This is how we need to us it inside of a component
+//some changes for AMZ-101
 export const useStateValue = () => useContext(StateContext);
